@@ -8,12 +8,12 @@
 # Obecná funkčnost aplikace
 - aplikace slouží jako ucelený přihlašovací systém na akce/pracovní události
 - každý uživatel má ve svěm profilu nastavené role, které mu umožnují provádět určité interakce se systémem
-#Landingpage
+# Landingpage
 - po zadání URL adresy se zobrazí stránka se 2 odkazy, směřující na přímé přihlášení a registraci nového uživatele
-##Přihlášení
+## Přihlášení
 - po kliknutí na tlačítko přihlásit vyskočí podstránka, která bude požadovat zadáná uživatelského jména a hesla
 - pod vstupní kolonkou se bude nacházet odkaz na obnovu zapomeného hesla, které se bude odesílat na e-mailovou adresu, přes které je vedeno přihlášení
-##Registrace
+## Registrace
 - při registraci zadává uživatel tyto údaje:
 1. vlastní jméno
 2. vlastní příjmení
@@ -27,16 +27,16 @@
 7. heslo
 8. heslo znovu
 - vedle funkčních kolonek bude kolonka pro nahrání profilové fotografie
-#Hlavní stránka
+# Hlavní stránka
 - na hlavní stránce se budou nacházet příspěvky od zaměstnavatele sloužící k předání informací zaměstnancům
-##POV - zaměstnanec
+## POV - zaměstnanec
 - zaměstnanec nemá povolenou interakci s příspěvky
 - vidí pouze nadpis, text sdělení a datum přidání
-##POV - admin
+## POV - admin
 - admin může po kliknutí na ikonku v pravém horním rohu příspěvku příspěvek editovat
 - zbytek vidí stejný jako běžný uživatel
 - v pravém dolním rohu se nachází ikonka pro vytvoření nového příspěvku
-###Vytvoření a úprava sdělení
+### Vytvoření a úprava sdělení
 - podstránka pro vytváření sdělení se skládá ze 2 funkčních polí
 	+ pole pro nadpis textu
 	+ samotný text
@@ -44,7 +44,7 @@
 	+ zelené s uložením úprav/přidáním příspěvku
 	+ šedé s funkcí zrušení vytváření/úprav beze změny
 	+ červené pro odstranění příspěvku
-#Seznam akcí
+# Seznam akcí
 - v náhledu se bude zobrazovat přehled akcí v šedých blocích
 - každý blok bude obsahovat tyto informace:
 1. Název události
@@ -56,11 +56,11 @@
 7. Počet obsazených/volných pozic
 - body 3 až 7 budou doplněny o piktogram dle návrhu
 - v pravém dolním rohu se bude nacházet tlačítko pro rozkliknutí podrobností o akci
-##POV - zaměstnanec
+## POV - zaměstnanec
 - zaměstnanec může pouze prohlížet informace a přejít na detail akce
-##POV - admin
+## POV - admin
 - admin má stejný pohled jako zaměstnanec s rozdílem možnosti vytvoření nové události
-###Vytvoření nové události
+### Vytvoření nové události
 - budou dostupné funkční kolonky dle předchozího zadání v sekci "Seznam akcí"
 - body 4. a 5. budou mít v pravém rohu možnost funkčního interakčního kalendáře/hodin
 - limit účastníků se nastavuje ve 3 oddělených boxech s možností manipulace s hodnotami pomocí postraních šipek
@@ -69,12 +69,12 @@
 - vedle nastavení limitů je možné zaškrtnout možnosti 
 	+ skrýt limit před uživateli (v takovém případě se nezobrazí v detailu akce)
 	+ bez limitu účastníků (v takovém případě políčka zešednou a nepůjde do nich psát)
-#Moje akce
+# Moje akce
 - sekce, do kterých se přesune událost po zaškrtnutí možnosti v detailu akce o potvrzení účásti
-#Detail akce
+# Detail akce
 - na detailu akce budou viditelné stejné informace jako na výčtu na stránce "Seznam akcí"
 - pod tímto bude trojsloupcová buňka ukazující počty volných/obsazených míst
-##POV - zaměstnanec
+## POV - zaměstnanec
 - zaměstnanec uvidí možnost přihlásit se pod určitou skupinou
 	+ brigádník
 	+ hosteska
@@ -86,7 +86,7 @@
 - po kliknutí na přihlášení se na akci jako XXX zmízí tlačítka s přihlášením a objeví se nové
 	+ odhlášení z akce (po kliknutí je stále evidován v databázi s označením odhlášený, má možnost se ještě znovu přihlásit)
 	+ ohlásit pozdní příchod (vygenerován automatický e-mail nesoucí informace o události, informace o brigádníkovi a následně je na zaměstnanci, aby doplnil míru spoždění, důvod a odeslal vedení)
-##POV - admin
+## POV - admin
 - admin nemá možnost přihlášení na akci
 - má k dispozici funkční tlačítka
 	+ Editovat - přesměruje na stejný formulář jako při tvorbě události nové
@@ -102,16 +102,16 @@
 	+ Telefon
 - u každého řádku je na jeho konci červené pole s křížkem k odebrání z akce
 	+ po kliknutí odešle e-mail s informacemi o akci a o zamítnutí jeho účasti
-#Profil
+# Profil
 - v sekci profilu může uživatel vizuelně zkontrolovat zadané údaje
-##POV - zaměstnanec
+## POV - zaměstnanec
 - zaměstnanec má možnost po kliknutí na tlačítko editovat upravovat tyto údaje:
 	+ Trvalé bydliště
 	+ Telefon
 	+ Kontaktní e-mail (nikoliv přihlašovací)
 	+ profilovou fotografii
 - nemůže editovat své role ani vodět role, které mu nebyly přiděleny
-##POV - admin
+## POV - admin
 - může editovat všechny informace
 - má na výběr ze 4 rolí
 	+ brigádník
@@ -123,7 +123,7 @@
 - role se aktivuje kliknutím na ni (změní barvu ze šedé na barevnou) a následným uložením
 - kromě tlačítek na editaci a uložení může pomocí tlačítka smazat odstranit uživatele z datebáze (nastavit dvojité ověření - jse si opravdu jistí, že chcete profil odstranit? - vyskakovací hláška stejně jako výše)
 - profil admina nelze odstranit - aby nedošlo k tomu, že nebude žádný admin
-#Správa účtů
+# Správa účtů
 - přístup pouze admin
 - seznam obsahující informace s filtrem stejně jako na detailu akce
 	+ Příjmení
@@ -134,25 +134,25 @@
 	+ E-mail
 	+detail (odkaz na profil zaměstnance s možností úpravy)
 - pod seznamem tlačítko s možností vytvoření nového účtu
-#Změna hesla
+# Změna hesla
 - stránka se 3 funkčními políčky
 	+ staré heslo
 	+ nové heslo
 	+ nové heslo znovu
 - stejný model jako přihlášení
-#Zapomenuté heslo
+# Zapomenuté heslo
 - stránka stejného designu jako předchozí
 - 1 funkční pole s požadavkem zadání emailu, na který bude zasláno vygenerované dočasné heslo
 - tlačítko odeslat
-#Header
+# Header
 - v pravé části tlačítko odhlášení a jméno uživatele (Jméno+Příjmení)
-#Navigace
+# Navigace
 - stacionární v levé části obrazovky
 - v horní části logo a tlačítko na sbalení do strany
 - pod logem oddělovací čára
 - 6 položek navigace
 - pod tímto kontakt na manažera - email+telefon
-#Footer
+# Footer
 - vlevo nahlášení problému - email na správce aplikace
 - odkaz na web SGI
 - v pravém rohu copyright SGI
