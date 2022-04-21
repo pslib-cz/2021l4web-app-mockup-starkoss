@@ -5,7 +5,7 @@
 - Veškeré grafické podklady včetně simulované funkčnosti byly vytvořeny v aplikaci Adobe XD společnosti Adobe
 
 
-#Obecná funkčnost aplikace
+# Obecná funkčnost aplikace
 - aplikace slouží jako ucelený přihlašovací systém na akce/pracovní události
 - každý uživatel má ve svěm profilu nastavené role, které mu umožnují provádět určité interakce se systémem
 #Landingpage
