@@ -14,6 +14,7 @@
 ## Přihlášení
 - po kliknutí na tlačítko přihlásit vyskočí podstránka, která bude požadovat zadáná uživatelského jména a hesla
 - pod vstupní kolonkou se bude nacházet odkaz na obnovu zapomeného hesla, které se bude odesílat na e-mailovou adresu, přes které je vedeno přihlášení
+![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/prihlaseni.png)
 ## Registrace
 - při registraci zadává uživatel tyto údaje:
 1. vlastní jméno
@@ -28,6 +29,7 @@
 7. heslo
 8. heslo znovu
 - vedle funkčních kolonek bude kolonka pro nahrání profilové fotografie
+![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/registrace.png)
 # Hlavní stránka
 - na hlavní stránce se budou nacházet příspěvky od zaměstnavatele sloužící k předání informací zaměstnancům
 ## POV - zaměstnanec
