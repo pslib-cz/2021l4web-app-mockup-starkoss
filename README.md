@@ -39,7 +39,7 @@
 - admin může po kliknutí na ikonku v pravém horním rohu příspěvku příspěvek editovat
 - zbytek vidí stejný jako běžný uživatel
 - v pravém dolním rohu se nachází ikonka pro vytvoření nového příspěvku
-![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/detail_akce_adm.png)
+![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/akce_adm.png)
 ### Vytvoření a úprava sdělení
 - podstránka pro vytváření sdělení se skládá ze 2 funkčních polí
 	+ pole pro nadpis textu
