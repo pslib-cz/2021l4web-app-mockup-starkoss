@@ -39,6 +39,7 @@
 - admin může po kliknutí na ikonku v pravém horním rohu příspěvku příspěvek editovat
 - zbytek vidí stejný jako běžný uživatel
 - v pravém dolním rohu se nachází ikonka pro vytvoření nového příspěvku
+![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/detail_akce_adm.png)
 ### Vytvoření a úprava sdělení
 - podstránka pro vytváření sdělení se skládá ze 2 funkčních polí
 	+ pole pro nadpis textu
@@ -47,6 +48,7 @@
 	+ zelené s uložením úprav/přidáním příspěvku
 	+ šedé s funkcí zrušení vytváření/úprav beze změny
 	+ červené pro odstranění příspěvku
+![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/prisp_adm.png)
 # Seznam akcí
 - v náhledu se bude zobrazovat přehled akcí v šedých blocích
 - každý blok bude obsahovat tyto informace:
@@ -63,6 +65,7 @@
 - zaměstnanec může pouze prohlížet informace a přejít na detail akce
 ## POV - admin
 - admin má stejný pohled jako zaměstnanec s rozdílem možnosti vytvoření nové události
+![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/akce_adm.png)
 ### Vytvoření nové události
 - budou dostupné funkční kolonky dle předchozího zadání v sekci "Seznam akcí"
 - body 4. a 5. budou mít v pravém rohu možnost funkčního interakčního kalendáře/hodin
@@ -72,6 +75,7 @@
 - vedle nastavení limitů je možné zaškrtnout možnosti 
 	+ skrýt limit před uživateli (v takovém případě se nezobrazí v detailu akce)
 	+ bez limitu účastníků (v takovém případě políčka zešednou a nepůjde do nich psát)
+![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/novy_akce_admin.png)
 # Moje akce
 - sekce, do kterých se přesune událost po zaškrtnutí možnosti v detailu akce o potvrzení účásti
 # Detail akce
@@ -89,6 +93,7 @@
 - po kliknutí na přihlášení se na akci jako XXX zmízí tlačítka s přihlášením a objeví se nové
 	+ odhlášení z akce (po kliknutí je stále evidován v databázi s označením odhlášený, má možnost se ještě znovu přihlásit)
 	+ ohlásit pozdní příchod (vygenerován automatický e-mail nesoucí informace o události, informace o brigádníkovi a následně je na zaměstnanci, aby doplnil míru spoždění, důvod a odeslal vedení)
+![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/detail_akce_brig.png)
 ## POV - admin
 - admin nemá možnost přihlášení na akci
 - má k dispozici funkční tlačítka
@@ -105,6 +110,7 @@
 	+ Telefon
 - u každého řádku je na jeho konci červené pole s křížkem k odebrání z akce
 	+ po kliknutí odešle e-mail s informacemi o akci a o zamítnutí jeho účasti
+![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/detail_akce_adm.png)
 # Profil
 - v sekci profilu může uživatel vizuelně zkontrolovat zadané údaje
 ## POV - zaměstnanec
@@ -126,6 +132,7 @@
 - role se aktivuje kliknutím na ni (změní barvu ze šedé na barevnou) a následným uložením
 - kromě tlačítek na editaci a uložení může pomocí tlačítka smazat odstranit uživatele z datebáze (nastavit dvojité ověření - jse si opravdu jistí, že chcete profil odstranit? - vyskakovací hláška stejně jako výše)
 - profil admina nelze odstranit - aby nedošlo k tomu, že nebude žádný admin
+![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/profil_adm.png)
 # Správa účtů
 - přístup pouze admin
 - seznam obsahující informace s filtrem stejně jako na detailu akce
@@ -137,6 +144,7 @@
 	+ E-mail
 	+detail (odkaz na profil zaměstnance s možností úpravy)
 - pod seznamem tlačítko s možností vytvoření nového účtu
+![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/sprava_uctu.png)
 # Změna hesla
 - stránka se 3 funkčními políčky
 	+ staré heslo
