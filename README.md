@@ -163,6 +163,8 @@
 - pod logem oddělovací čára
 - 6 položek navigace
 - pod tímto kontakt na manažera - email+telefon
+- je-li navigace zbalená, pořádse ukazuje úzký pruh s ikonkami a malým logem
+![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/Logo-SGI-alternativni_pouze_lev_bily.png)
 # Footer
 - vlevo nahlášení problému - email na správce aplikace
 - odkaz na web SGI
