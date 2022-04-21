@@ -4,11 +4,6 @@
 - Základní barevný design vychází z logomanuálu a oficiálního webu SGI
 - Veškeré grafické podklady včetně simulované funkčnosti byly vytvořeny v aplikaci Adobe XD společnosti Adobe
 
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
 
 #Obecná funkčnost aplikace
 - aplikace slouží jako ucelený přihlašovací systém na akce/pracovní události
