@@ -10,7 +10,7 @@
 - každý uživatel má ve svěm profilu nastavené role, které mu umožnují provádět určité interakce se systémem
 # Landingpage
 - po zadání URL adresy se zobrazí stránka se 2 odkazy, směřující na přímé přihlášení a registraci nového uživatele
-![] (https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/uvod-rozcestnik.png)
+![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/uvod-rozcestnik.png)
 ## Přihlášení
 - po kliknutí na tlačítko přihlásit vyskočí podstránka, která bude požadovat zadáná uživatelského jména a hesla
 - pod vstupní kolonkou se bude nacházet odkaz na obnovu zapomeného hesla, které se bude odesílat na e-mailovou adresu, přes které je vedeno přihlášení
