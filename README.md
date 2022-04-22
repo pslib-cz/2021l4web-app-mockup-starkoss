@@ -180,7 +180,7 @@
 - prostý text a text navigace velikost 16px
 - pro zvýraznění použít řez Bold
 #Colors
-Barva  | #HEX 
+| Barva  | #HEX | 
 ------------- | -------------
 Bílá  | #FFFFFF 
 Černá  | #000000
