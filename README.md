@@ -30,6 +30,7 @@
 7. heslo
 8. heslo znovu
 - vedle funkčních kolonek bude kolonka pro nahrání profilové fotografie
+- profil začne fungovat poté, co mu bude přidělena adminem alespoň 1 role
 ![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/registrace.png)
 # Hlavní stránka
 - na hlavní stránce se budou nacházet příspěvky od zaměstnavatele sloužící k předání informací zaměstnancům
