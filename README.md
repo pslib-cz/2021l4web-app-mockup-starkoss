@@ -179,7 +179,7 @@
 - podnadpisy h2 velikost 24 px
 - prostý text a text navigace velikost 16px
 - pro zvýraznění použít řez Bold
-#Colors
+# Colors
 | Barva  | #HEX | 
 ------------- | -------------
 Bílá  | #FFFFFF 
