@@ -112,6 +112,7 @@
 	+ Telefon
 - u každého řádku je na jeho konci červené pole s křížkem k odebrání z akce
 	+ po kliknutí odešle e-mail s informacemi o akci a o zamítnutí jeho účasti
+- na konci tabulky se nachází scroll-bar
 ![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/detail_akce_adm.png)
 # Profil
 - v sekci profilu může uživatel vizuelně zkontrolovat zadané údaje
