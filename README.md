@@ -1,4 +1,4 @@
-### Interní aplikace evidence brigádníků
+# Desktopová aplikace - Interní Aplikace Evidence Brigádníků (I.A.E.B.)
 
 - Aplikace navrhnutá pro společnost SGInternational pro evidenci brigádníků
 - Základní barevný design vychází z logomanuálu a oficiálního webu SGI
