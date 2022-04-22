@@ -12,7 +12,9 @@
 - po zadání URL adresy se zobrazí stránka se 2 odkazy, směřující na přímé přihlášení a registraci nového uživatele
 ![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/uvod-rozcestnik.png)
 ## Přihlášení
-- po kliknutí na tlačítko přihlásit vyskočí podstránka, která bude požadovat zadáná uživatelského jména a hesla
+- po kliknutí na tlačítko přihlásit vyskočí podstránka, která bude požadovat zadání uživatelského jména a hesla
+- heslo bude ve výchozím nastaví skryto, po kliknutí na ikonku oka se zobrazí
+- lze zaškrtnout možnost pamatovat si přihlášení, která usnadní příští přihlášení
 - pod vstupní kolonkou se bude nacházet odkaz na obnovu zapomeného hesla, které se bude odesílat na e-mailovou adresu, přes které je vedeno přihlášení
 ![](https://github.com/pslib-cz/2021l4web-app-mockup-starkoss/blob/main/img/prihlaseni.png)
 ## Registrace
