@@ -173,3 +173,9 @@
 - vlevo nahlášení problému - email na správce aplikace
 - odkaz na web SGI
 - v pravém rohu copyright SGI
+# Fonts
+- použit font Roboto
+- hlavní nadpisy h1 velikosti 32 px
+- podnadpisy h2 velikost 24 px
+- prostý text a text navigace velikost 16px
+- pro zvýraznění použít řez Bold
